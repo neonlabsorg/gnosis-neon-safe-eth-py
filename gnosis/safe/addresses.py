@@ -439,6 +439,18 @@ MASTER_COPIES: Dict[EthereumNetwork, List[Tuple[str, int, str]]] = {
         ("0xfb1bffC9d739B8D520DaF37dF666da4C687191EA", 6333171, "1.3.0+L2"),
         ("0x69f4D1788e39c87893C980c06EdF4b7f686e2938", 6333172, "1.3.0"),
     ],
+    EthereumNetwork.NEON_EVM_DEVNET: [
+        (
+            "0x69f4D1788e39c87893C980c06EdF4b7f686e2938",
+            205147021,
+            "1.3.0+L2",
+        ),  # need to change block number
+        (
+            "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA",
+            205147000,
+            "1.3.0",
+        ),  # need to change block number
+    ],
 }
 
 PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {
@@ -731,5 +743,11 @@ PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {
     ],
     EthereumNetwork.ETHEREUM_CLASSIC_TESTNET_MORDOR: [
         ("0x69f4D1788e39c87893C980c06EdF4b7f686e2938", 6333172),  # v1.3.0
+    ],
+    EthereumNetwork.NEON_EVM_DEVNET: [
+        (
+            "0xc22834581ebc8527d974f8a1c97e1bea4ef910bc",
+            205146874,
+        ),  # v1.3.0. need to change block number
     ],
 }
