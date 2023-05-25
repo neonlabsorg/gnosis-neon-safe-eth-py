@@ -776,7 +776,7 @@ PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {
     ],
     EthereumNetwork.NEON_EVM_DEVNET: [
         (
-            "0xc22834581ebc8527d974f8a1c97e1bea4ef910bc",
+            "0xC22834581EbC8527d974F8a1c97E1bEA4EF910BC",
             205146874,
         ),  # v1.3.0. need to change block number
     ],
